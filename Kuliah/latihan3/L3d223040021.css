@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(rgb(155, 155, 182), rgb(255, 255, 255));
+  background-repeat: repeat-x;
+  font-family: Georgia;
+}
+
+p {
+  font-family: Georgia;
+  text-align: justify;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: darkblue;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.instagram:hover {
+  color: grey;
+}
+
+.instagram {
+  color: red;
+  font-variant: small-caps;
+}
+
+.facebook:hover {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.facebook {
+  text-decoration: none;
+  font-weight: bolder;
+}

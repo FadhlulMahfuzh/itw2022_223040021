@@ -1,0 +1,43 @@
+body {
+  background-color: aqua;
+}
+
+p {
+  font-family: Georgia;
+  text-align: justify;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 60px;
+  color: darkblue;
+}
+
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+}
+
+.instagram:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.instagram {
+  color: white;
+  font-variant: small-caps;
+}
+
+.facebook:hover {
+  background-color: blue;
+  color: white;
+}
+
+.facebook {
+  text-decoration: none;
+  font-weight: bolder;
+}
