@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        margin: auto;
+        border-radius: 15%;
+        position: relative;
+        z-index: 10;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin: auto;
+        /*box-shadow: <x-offset> <y-offset;*/
+        box-shadow: 0 0 0 10px red, 0 0 0 20px yellow, 0 0 0 30px blue,
+          0 0 0 40px green;
+      }
+      p {
+        position: relative;
+        top: -10px;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 100px;
+        font-family: Arial;
+        font-size: 50px;
+        color: black;
+        text-shadow: 5px 5px 5px blue;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        /*transition: 2s transform;*/
+      }
+
+      .kotak3:active {
+        /*transform: rotate(720deg);*/
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus,
+      dolores est. Autem eum eveniet officia esse perferendis molestiae,
+      distinctio quis, adipisci maxime sint provident expedita molestias
+      consectetur reprehenderit voluptatum fugit.
+    </p>
+
+    <h1>Fadhlul Nur Mahfuzh</h1>
+
+    <div class="kotak2"></div>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>
